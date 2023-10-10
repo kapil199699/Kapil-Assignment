@@ -17,7 +17,7 @@ app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
 app.use(bodyParser.json());
 
 const mongoURI =
-"mongodb+srv://india-times:JbcH46ZHWnponQMN@cluster0.fhsxzh8.mongodb.net/test?retryWrites=true&w=majority"
+"mongodb+srv://india-times:JbcH46ZHWnponQMN@cluster0.fhsxzh8.mongodb.net/test";
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
